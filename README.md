@@ -1,6 +1,6 @@
 ﻿## Java APG
 
-**Version:** 1.1.0
+**Version:** 1.1.1
 
 *Note:* Version 1.1.0 updates version 1.0 in a couple of ways. Primarily, the license is changed to the more permissive 2-Clause BSD license. Also, in the installation section below are instructions on how to include Java APG in a [maven](https://maven.apache.org/) project. I want to thank [Raviteja Lokineni](https://github.com/bond-) (@bond-) for suggesting these changes and especially [Stephen Sill II](https://github.com/ssill2) (@ssill2) for his friendly and expert nudging of me up the maven learning curve. (See issue #6.)
 
@@ -66,7 +66,7 @@ To use apg-java in your project just modify the project's pom.xml file to includ
     <dependency>
        <groupId>com.ldthomas.apg</groupId>
        <artifactId>apg-java</artifactId>
-       <version>1.1.0</version>
+       <version>1.1.1</version>
     </dependency>
 </dependencies>
 ```

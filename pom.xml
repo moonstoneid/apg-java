@@ -5,8 +5,37 @@
 
     <groupId>com.moonstoneid</groupId>
     <artifactId>apg-java</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
+
+    <name>apg-java</name>
+    <description>Java APG is an ABNF Parser. This is a fork of https://github.com/ldthomas/apg-java to make the lib available via Maven Central.</description>
+    <url>https://github.com/moonstoneid/apg-java</url>
+
+    <developers>
+        <developer>
+            <id>Lowell D. Thomas</id>
+            <organization>-</organization>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/moonstoneid/apg-java</url>
+        <connection>scm:git:https://github.com/moonstoneid/apg-java.git</connection>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/moonstoneid/apg-java/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>BSD-2-Clause</name>
+            <url>https://opensource.org/licenses/BSD-2-Clause</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     
     <properties>
         <java-version>11</java-version>
